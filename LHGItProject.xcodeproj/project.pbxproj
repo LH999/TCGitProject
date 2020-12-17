@@ -16,6 +16,7 @@
 		814B839A258B387F00DF3A1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B8399258B387F00DF3A1B /* main.m */; };
 		814B83A4258B387F00DF3A1B /* LHGItProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B83A3258B387F00DF3A1B /* LHGItProjectTests.m */; };
 		814B83AF258B387F00DF3A1B /* LHGItProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B83AE258B387F00DF3A1B /* LHGItProjectUITests.m */; };
+		814B83C2258B531000DF3A1B /* TCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B83C1258B531000DF3A1B /* TCHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		814B83AA258B387F00DF3A1B /* LHGItProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHGItProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		814B83AE258B387F00DF3A1B /* LHGItProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHGItProjectUITests.m; sourceTree = "<group>"; };
 		814B83B0258B387F00DF3A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814B83C0258B531000DF3A1B /* TCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCHomeViewController.h; sourceTree = "<group>"; };
+		814B83C1258B531000DF3A1B /* TCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 		814B83BE258B511000DF3A1B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				814B83C0258B531000DF3A1B /* TCHomeViewController.h */,
+				814B83C1258B531000DF3A1B /* TCHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			files = (
 				814B838F258B387C00DF3A1B /* ViewController.m in Sources */,
 				814B8389258B387C00DF3A1B /* AppDelegate.m in Sources */,
+				814B83C2258B531000DF3A1B /* TCHomeViewController.m in Sources */,
 				814B839A258B387F00DF3A1B /* main.m in Sources */,
 				814B838C258B387C00DF3A1B /* SceneDelegate.m in Sources */,
 			);
