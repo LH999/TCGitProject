@@ -18,6 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor cyanColor];
+    
+    NSLog(@"甜橙");
+}
+
+-(void)addBtnClick{
+    NSLog(@"今天天气还是不错的哦");
 }
 
 
