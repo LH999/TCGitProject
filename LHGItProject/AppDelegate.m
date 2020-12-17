@@ -20,12 +20,6 @@
     return YES;
 }
 
--(void)kkk{
-    NSString * w = @"小河";
-    NSLog(@"%@",w);
-}
-
-
 #pragma mark - UISceneSession lifecycle
 
 

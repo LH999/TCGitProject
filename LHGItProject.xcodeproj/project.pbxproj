@@ -104,6 +104,7 @@
 		814B8386258B387C00DF3A1B /* LHGItProject */ = {
 			isa = PBXGroup;
 			children = (
+				814B83BC258B50B900DF3A1B /* Home */,
 				814B8387258B387C00DF3A1B /* AppDelegate.h */,
 				814B8388258B387C00DF3A1B /* AppDelegate.m */,
 				814B838A258B387C00DF3A1B /* SceneDelegate.h */,
@@ -135,6 +136,37 @@
 				814B83B0258B387F00DF3A1B /* Info.plist */,
 			);
 			path = LHGItProjectUITests;
+			sourceTree = "<group>";
+		};
+		814B83BC258B50B900DF3A1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				814B83BF258B511E00DF3A1B /* Model */,
+				814B83BE258B511000DF3A1B /* Controller */,
+				814B83BD258B510500DF3A1B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		814B83BD258B510500DF3A1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		814B83BE258B511000DF3A1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		814B83BF258B511E00DF3A1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
