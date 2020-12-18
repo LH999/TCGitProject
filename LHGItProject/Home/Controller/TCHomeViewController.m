@@ -31,6 +31,8 @@
     [self.view addSubview:topView];
     
     NSLog(@"提价了哦哦哦哦哦哦哦哦哦哦哦哦哦");
+    
+    NSLog(@"oooooooooo");
 }
 
 -(void)shopbtnClick{
