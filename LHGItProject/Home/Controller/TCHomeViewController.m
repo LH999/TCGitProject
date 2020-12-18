@@ -35,6 +35,8 @@
     NSLog(@"oooooooooo");
     
     NSLog(@"999999");
+    
+    NSLog(@"888888");
 }
 
 -(void)shopbtnClick{
