@@ -24,10 +24,21 @@
     [shopbtn addTarget:self action:@selector(shopbtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:shopbtn];
     shopbtn.backgroundColor = [UIColor cyanColor];
+    
+    
+    UIView * topView = [[UIView alloc]initWithFrame:CGRectMake(100, 250, 100, 100)];
+    topView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:topView];
+    
+    NSLog(@"提价了哦哦哦哦哦哦哦哦哦哦哦哦哦");
 }
 
 -(void)shopbtnClick{
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)dsmm{
+    
 }
 /*
 #pragma mark - Navigation
