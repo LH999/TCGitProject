@@ -33,6 +33,8 @@
     NSLog(@"提价了哦哦哦哦哦哦哦哦哦哦哦哦哦");
     
     NSLog(@"oooooooooo");
+    
+    NSLog(@"999999");
 }
 
 -(void)shopbtnClick{
